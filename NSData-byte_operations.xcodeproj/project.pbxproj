@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2296FB861BD483B500CB77D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2296FB851BD483B500CB77D1 /* main.m */; };
+		2296FB8E1BD483BC00CB77D1 /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2296FB8D1BD483BC00CB77D1 /* utils.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2296FB821BD483B500CB77D1 /* NSData-byte_operations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NSData-byte_operations"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2296FB851BD483B500CB77D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2296FB8C1BD483BC00CB77D1 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		2296FB8D1BD483BC00CB77D1 /* utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2296FB851BD483B500CB77D1 /* main.m */,
+				2296FB8C1BD483BC00CB77D1 /* utils.h */,
+				2296FB8D1BD483BC00CB77D1 /* utils.m */,
 			);
 			path = "NSData-byte_operations";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2296FB861BD483B500CB77D1 /* main.m in Sources */,
+				2296FB8E1BD483BC00CB77D1 /* utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
